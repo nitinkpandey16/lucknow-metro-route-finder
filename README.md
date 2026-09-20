@@ -28,7 +28,7 @@ An asynchronous REST API and route optimization engine designed to mitigate peak
 
 ## Project Structure
 
-```text
+```
 lucknow_metro/
 ├── app.py              # FastAPI application, route validation, and REST controllers
 ├── station_loader.py   # Polars data loader, Bidirectional Dijkstra, and time heuristics
@@ -38,25 +38,6 @@ lucknow_metro/
 
 
 ```
-
-### Should Your Code Files Be Public?
-
-Yes, keep `app.py` and `station_loader.py` public.
-
-Engineering managers and technical interviewers do not consider 2–3 cleanly written Python files "bulky". When an engineer evaluates a GitHub link, they check:
-
-1. **The README**: To understand architecture, impact, and API contracts within 60 seconds.
-
-2. **The Code**: To verify clean structure, typing, edge-case safety, and genuine algorithmic competence rather than just generic claims.
-
-Hiding your code leaves a repository looking incomplete or unverified. What hiring managers **do not** want to see are clutter files: virtual environments (`.venv/`), database binaries (`metro.db`), compile caches (`__pycache__/`), or loose drafts. Your repo is currently clean with just `app.py`, `station_loader.py`, `requirement.txt`, and `README.md`.
-
----
-
-
----
-
-
 
 ## Getting Started
 
