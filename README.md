@@ -91,7 +91,7 @@ Once initialized, navigate to:
 
 #### Sample Request
 
-```http
+``` http
    GET /route?start_station=Charbagh&end_station=Hazratganj&current_time=10:00 HTTP/1.1
    Host: localhost:8000
 
